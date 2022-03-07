@@ -1,4 +1,5 @@
 def exam_grade(score):
+    assert(type(score) == int)
     if score > 95:
         grade = "Top Score"
     elif score >= 60:
